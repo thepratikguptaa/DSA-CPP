@@ -19,6 +19,10 @@ int main() {
     // Display the result to the user
     cout << "The product of " << num1 << " and " << num2 << " is " << product << endl;
 
+    int size = sizeof(product); // Calculate the size of the product variable
+    // Display the size of the product variable
+    cout << "The size of the product is " << size << " bytes." << endl;
+
     // Indicate that the program ended successfully
     return 0;
 }
