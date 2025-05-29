@@ -10,5 +10,9 @@ int main() {
 
     char ch2 = 123456;
     cout << "Implicit conversion from int to char (out of range): " << ch2 << endl;
+
+    float f = 3.14;
+    int c = int(f); // Explicit conversion from float to int
+    cout << "Explicit conversion from float to int: " << c << endl;
     
 }
