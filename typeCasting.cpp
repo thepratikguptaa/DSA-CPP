@@ -10,4 +10,5 @@ int main() {
 
     char ch2 = 123456;
     cout << "Implicit conversion from int to char (out of range): " << ch2 << endl;
+    
 }
