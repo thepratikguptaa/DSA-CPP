@@ -36,5 +36,11 @@ int main() {
 
 
 
-    int n;
+    int n, i = 0;
+    cout << "Enter a number: ";
+    cin >> n;
+    while (i <= n) {
+        cout << i << " ";
+        i++;
+    }
 }
