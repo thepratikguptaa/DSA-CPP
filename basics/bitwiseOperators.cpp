@@ -10,6 +10,8 @@ int main() {
     cout << "~a = " << (~a) << endl; // Bitwise NOT
     cout << "a ^ b = " << (a ^ b) << endl; // Bitwise XOR
 
+    cout << endl;
+
     cout << "a << 1 = " << (a << 1) << endl; // Left shift
     cout << "a >> 1 = " << (a >> 1) << endl; // Right shift
 
