@@ -57,21 +57,6 @@ int main() {
     // }
     // cout << "sum of first " << n << " natural numbers is " << sum << endl;
 
-    
-    // int n, i=2;
-    // cout << "Enter the number to check for prime: ";
-    // cin >> n;
-    // while (i < n) {
-    //     if (n % i == 0) {
-    //         cout << n << " is not a prime number" << endl;
-    //         return 0; // Exit the program if a divisor is found
-    //     } else {
-    //         cout << n << " is a prime number" << endl;
-    //         return 0; // Exit the program if no divisor is found
-    //     }
-    //     i++;
-    // }
-
 
     // int n;
     // cout << "Enter a number: " << endl;
@@ -83,12 +68,31 @@ int main() {
     // }
 
 
-    int a=0, b=1;       //fibonacci series
-    int n=10; // number of terms in the series
-    for (int i=1; i<=n; i++) {
-        cout << a << " ";
-        int next = a + b;
-        a = b;
-        b = next;
+    // int a=0, b=1;       //fibonacci series
+    // int n=10; // number of terms in the series
+    // for (int i=1; i<=n; i++) {
+    //     cout << a << " ";
+    //     int next = a + b;
+    //     a = b;
+    //     b = next;
+    // }
+
+
+    // prime number check
+    int n;
+    cout << "Enter a number: " << endl;
+    cin >> n;
+    bool isPrime = true;
+
+    for (int i=2; i<n; i++) {
+        if (n % i == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime == 0) {
+        cout << "The given number is not prime" << endl;
+    } else {
+        cout << "The given number is prime" << endl;
     }
 }
