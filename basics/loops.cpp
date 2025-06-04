@@ -58,18 +58,28 @@ int main() {
     // cout << "sum of first " << n << " natural numbers is " << sum << endl;
 
     
-    int n, i=2;
-    cout << "Enter the number to check for prime: ";
+    // int n, i=2;
+    // cout << "Enter the number to check for prime: ";
+    // cin >> n;
+    // while (i < n) {
+    //     if (n % i == 0) {
+    //         cout << n << " is not a prime number" << endl;
+    //         return 0; // Exit the program if a divisor is found
+    //     } else {
+    //         cout << n << " is a prime number" << endl;
+    //         return 0; // Exit the program if no divisor is found
+    //     }
+    //     i++;
+    // }
+
+
+    int n;
+    cout << "Enter a number: " << endl;
     cin >> n;
-    while (i < n) {
-        if (n % i == 0) {
-            cout << n << " is not a prime number" << endl;
-            return 0; // Exit the program if a divisor is found
-        } else {
-            cout << n << " is a prime number" << endl;
-            return 0; // Exit the program if no divisor is found
-        }
-        i++;
+
+    cout << "Printing count from 1 to " << n << endl;
+    for (int i=0; i<n; i++) {
+        cout << i+1 << " ";
     }
 
 }
