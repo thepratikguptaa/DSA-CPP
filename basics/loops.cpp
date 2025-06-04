@@ -73,13 +73,22 @@ int main() {
     // }
 
 
-    int n;
-    cout << "Enter a number: " << endl;
-    cin >> n;
+    // int n;
+    // cout << "Enter a number: " << endl;
+    // cin >> n;
 
-    cout << "Printing count from 1 to " << n << endl;
-    for (int i=0; i<n; i++) {
-        cout << i+1 << " ";
+    // cout << "Printing count from 1 to " << n << endl;
+    // for (int i=0; i<n; i++) {
+    //     cout << i+1 << " ";
+    // }
+
+
+    int a=0, b=1;       //fibonacci series
+    int n=10; // number of terms in the series
+    for (int i=1; i<=n; i++) {
+        cout << a << " ";
+        int next = a + b;
+        a = b;
+        b = next;
     }
-
 }
