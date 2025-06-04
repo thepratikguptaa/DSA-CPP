@@ -17,9 +17,6 @@ int main() {
 
 
 
-
-
-
     // char a;
     // cout << "Give me a character: ";
     // cin >> a;
@@ -33,9 +30,6 @@ int main() {
     // } else {
     //     cout << "The given character is a special character" << endl;
     // }
-
-
-
 
 
 
