@@ -5,7 +5,7 @@ using namespace std;
 int main() {  // decimal to binary conversion
 
     int n;
-    cout << "Enter a number: ";
+    cout << "Enter a positive number: ";
     cin >> n;
 
     int ans = 0;
@@ -16,7 +16,7 @@ int main() {  // decimal to binary conversion
 
         ans = (bit * pow(10, i)) + ans; // Add the digit at the correct position
 
-        n = n >> 1;
+        n = n >> 1;  // or n /= 2; // Shift the number to the right
         i++; // Move to the next position
     }
 
