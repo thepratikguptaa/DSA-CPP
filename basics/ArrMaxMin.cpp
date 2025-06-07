@@ -2,26 +2,30 @@
 using namespace std;
 
 int getMax(int num[], int n) {
-    int max = INT_MIN;
+    int maxNum = INT_MIN;
 
     for(int i = 0; i < n; i++) {
-        if(num[i] > max) {
-            max = num[i];
+        if(num[i] > maxNum) {
+            maxNum = num[i];
         }
+        // or
+        // maxNum = max(maxNum, num[i]);   //using inbuilt function
     }
 
-    return max;
+    return maxNum;
 }
 int getMin(int num[], int n) {
-    int min = INT_MAX;
+    int minNum = INT_MAX;
 
     for(int i = 0; i < n; i++) {
-        if(num[i] < min) {
-            min = num[i];
+        if(num[i] < minNum) {
+            minNum = num[i];
         }
+        // or
+        // minNum = min(minNum, num[i]);   //using inbuilt function
     }
 
-    return min;
+    return minNum;
 }
 
 int main () {
