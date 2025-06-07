@@ -11,7 +11,6 @@ int getMax(int num[], int n) {
         // or
         // maxNum = max(maxNum, num[i]);   //using inbuilt function
     }
-
     return maxNum;
 }
 int getMin(int num[], int n) {
@@ -24,7 +23,6 @@ int getMin(int num[], int n) {
         // or
         // minNum = min(minNum, num[i]);   //using inbuilt function
     }
-
     return minNum;
 }
 
