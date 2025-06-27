@@ -59,7 +59,8 @@
   "files.associations": {
     "ostream": "cpp",
     "iostream": "cpp",
-    "random": "cpp"
+    "random": "cpp",
+    "unordered_map": "cpp"
   },
   "C_Cpp_Runner.outputDir": "${workspaceFolder}/build"
 }
