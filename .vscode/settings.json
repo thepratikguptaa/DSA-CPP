@@ -60,7 +60,17 @@
     "ostream": "cpp",
     "iostream": "cpp",
     "random": "cpp",
-    "unordered_map": "cpp"
+    "unordered_map": "cpp",
+    "atomic": "cpp",
+    "charconv": "cpp",
+    "cmath": "cpp",
+    "algorithm": "cpp",
+    "functional": "cpp",
+    "format": "cpp",
+    "istream": "cpp",
+    "limits": "cpp",
+    "variant": "cpp",
+    "vector": "cpp"
   },
   "C_Cpp_Runner.outputDir": "${workspaceFolder}/build"
 }
