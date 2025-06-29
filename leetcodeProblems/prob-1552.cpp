@@ -16,8 +16,7 @@ public:
         }
         return ans;
     }
-
-private:
+    
     bool canWePlace(const vector<int>& arr, int dist, int balls) {
         int countBalls = 1;
         int lastPlaced = arr[0];
