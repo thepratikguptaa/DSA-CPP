@@ -70,7 +70,8 @@
     "istream": "cpp",
     "limits": "cpp",
     "variant": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "string_view": "cpp"
   },
   "C_Cpp_Runner.outputDir": "${workspaceFolder}/build"
 }

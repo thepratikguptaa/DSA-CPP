@@ -1,19 +1,10 @@
 class Solution {
 public:
     string removeOccurrences(string s, string part) {
-        string resultStack;
-        int targetLength = part.size();
-        char targetEndChar = part.back();
-
-        for (char currentChar : s) {
-            resultStack.push_back(currentChar);
-
-            if (currentChar == targetEndChar && resultStack.size() >= targetLength) {
-                if (resultStack.substr(resultStack.size() - targetLength) == part) {
-                    resultStack.erase(resultStack.size() - targetLength);
-                }
-            }
+        
+        while(s.length()!=0 && s.find(part) < s.length()) {
+            s.erase(s.find(part), part.length());
         }
-        return resultStack;
+        return s;
     }
 };
