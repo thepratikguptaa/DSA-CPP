@@ -71,7 +71,9 @@
     "limits": "cpp",
     "variant": "cpp",
     "vector": "cpp",
-    "string_view": "cpp"
+    "string_view": "cpp",
+    "streambuf": "cpp",
+    "bit": "cpp"
   },
   "C_Cpp_Runner.outputDir": "${workspaceFolder}/build"
 }
