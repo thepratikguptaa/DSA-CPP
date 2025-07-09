@@ -73,7 +73,8 @@
     "vector": "cpp",
     "string_view": "cpp",
     "streambuf": "cpp",
-    "bit": "cpp"
+    "bit": "cpp",
+    "string": "cpp"
   },
   "C_Cpp_Runner.outputDir": "${workspaceFolder}/build"
 }
