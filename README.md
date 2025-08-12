@@ -1,7 +1,7 @@
 
 <h1 align="center" id="title">Data Structures and Algorithms</h1>
 
-<p align="center">This repository contains my practice problems and implementations of various data structures and algorithms in C++ and Java.</p>
+<p align="center">This repository contains my practice problems and implementations of various data structures and algorithms in C++.</p>
 
 ## What are Data Structures?
 
